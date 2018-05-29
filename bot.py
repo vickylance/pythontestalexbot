@@ -67,7 +67,7 @@ def recognize(name,message):
                 bot.send_message(message.chat.id,"Не удалось распознать ваше сообщение")
     return a
 n=0
-token="424328547:AAHn7clmxxXmNncncqUT4zyXtx9yqEBWiFM"
+token="some token"
 bot_username="@pythontestalexbot"
 bot = telebot.TeleBot(token,num_threads=4)
 logger=telebot.logger
